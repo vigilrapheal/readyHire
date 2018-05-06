@@ -108,6 +108,8 @@ section {
           color: white; }
       #mainNav .navbar-nav > li > a.link{
         border: 1px solid rgba(255,255,255,0.4);
+	background:#fd8b62;
+	color:white;
         border-radius: 20px;
       }
       #mainNav .navbar-nav > li > a.link:hover{
@@ -163,9 +165,11 @@ background: linear-gradient(to right,#09203f, #537895);/*--1--*/
 
 /*background: linear-gradient(to right,#360940,#F05F57);--6--*/
 
-/*background: linear-gradient(to right, #123597,#97ABFF);--7--*/
+/*background: linear-gradient(to right, #312e2e,#d8d8d8);/*--7--*/
 
 /*background: linear-gradient(to right,#3B2667, #BC78EC);----*/
+
+/*background: linear-gradient(to right,#eeeeee, #FAFAFA);*/
 
 }
 

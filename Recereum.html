@@ -42,6 +42,18 @@
     	#mainNav{
     		background: linear-gradient(to right, #09203f, #537895);
     	}
+
+    i{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
 </style>
 
     <script src="./Recereum_files/saved_resource" async="" type="text/javascript"></script><script src="./Recereum_files/saved_resource" async="" type="text/javascript"></script><script type="text/javascript" async="" src="./Recereum_files/analytics.js"></script><script src="./Recereum_files/Chart.bundle.min.js"></script><style type="text/css">/* Chart.js */
@@ -66,7 +78,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About platform</a>
+              <a class="nav-link js-scroll-trigger" href="#about"><b>About platform</b></a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#token">Token Sale</a>
@@ -75,7 +87,7 @@
               <a class="nav-link js-scroll-trigger" href="#documents">Documents</a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger link" href="" target="_blank">Request Invite</a>
+              <a class="nav-link js-scroll-trigger link" href="" target="_blank" style="font-size: 15px"><b>Request Invite </b><i class="arrow left"></i></a>
             </li>
           </ul>
         </div>
@@ -142,7 +154,7 @@
 
     <script type="text/javascript">
     	var text = ["Agency", "Client"];
-    	var content=["Realtime recruitment intelligence to fill mission critical roles from multiple talent pipelines, in days not weeks.","Find your unfair advantage, increase placements and maximize revenues with intelligence that no one else has."]
+    	var content=["Realtime recruitment intelligence to fill mission critical roles from multiple talent pipelines, in days not weeks.","Gain your unfair advantage, increase placements and maximize revenues with intelligence that no one else has."]
 var counter = 0;
 var elem = document.getElementById("changeText");
 var elem2= document.getElementById("changeContent");
