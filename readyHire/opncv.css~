@@ -83,3 +83,65 @@ font-weight: 30px
          ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
          opacity: .4; /* Firefox */
          }
+
+.inputBorder{
+	border-color:red;
+}
+
+
+    	#mainNav{
+    		background: linear-gradient(to right, #09203f, #537895);
+    	}
+/*Arrow left css*/
+    i{
+    border: solid black;
+    background-color: transparent;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.blink_me {
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/*shaking text*/
+a.angrytext:hover {
+  background-color: white;
+animation: shake 1s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+/*shaking text*/
+

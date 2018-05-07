@@ -21,8 +21,8 @@ $("#getmail").on("focusout", function() {
       for (i = 0; i < domainList.length; ++i) {
           if (match[7].toLowerCase() === domainList[i]) {
               $(this).attr("placeholder", "* Enter company email address *");
-              $(this).css('border-color', 'red');
               $(this).addClass('placeholderColor');
+$(this).css("border-color","red");
               $(this).val("");
           }
       }
@@ -30,7 +30,7 @@ $("#getmail").on("focusout", function() {
 
   $("#getmail").on("mousedown", function() {
       $(this).attr("placeholder", "Company email");
-      $(this).css('border-color', '');
+$(this).css("border-color","");
       $(this).removeClass('placeholderColor');
   });
 

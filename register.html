@@ -126,5 +126,106 @@
       <script src="./readyHire/delaunay.js"></script>
       <script src="./readyHire/custom.js"></script>
       <script src="./readyHire/opncv.js"></script>
+      <script type="text/javascript">
+      		$('input[name=name]').on('click',function(){
+      			if($('input[name=coname]').val().length === 0){
+      				var ele=$('input[name=coname]');
+      				ele.attr("placeholder", "* Enter Company Name *");
+              		ele.addClass('placeholderColor');
+					ele.css("border-color","red");
+              		ele.val("");
+      			}
+      		});
+      		$('input[name=coname]').on("mousedown", function() {
+      			$(this).attr("placeholder", "Company Name");
+              		$(this).removeClass('placeholderColor');
+					$(this).css("border-color","");
+      		});
+
+      		$('input[name=role]').on('click',function(){
+      			if($('input[name=name]').val().length === 0){
+      				var ele=$('input[name=name]');
+      				ele.attr("placeholder", "* Enter Name *");
+              		ele.addClass('placeholderColor');
+					ele.css("border-color","red");
+              		ele.val("");
+      			}else {
+
+var letters = /[0-9]+/;
+if($('input[name=name]').val().match(letters))
+{ 
+      					var ele=$('input[name=name]');
+      				ele.attr("placeholder", "* Enter a valid name *");
+              		ele.addClass('placeholderColor');
+					ele.css("border-color","red");
+              		ele.val("");
+      				}
+      			}
+      		});
+      		$('input[name=name]').on("mousedown", function() {
+      			$(this).attr("placeholder", "Name");
+              		$(this).removeClass('placeholderColor');
+					$(this).css("border-color","");
+      		});
+
+/* ------- */
+      		$('input[name=ph]').on('click',function(){
+      			if($('input[name=role]').val().length === 0){
+      				var ele=$('input[name=role]');
+      				ele.attr("placeholder", "* Enter Role *");
+              		ele.addClass('placeholderColor');
+					ele.css("border-color","red");
+              		ele.val("");
+      			}else {
+
+var letters = /[0-9]+/;
+if($('input[name=role]').val().match(letters))
+{ 
+      					var ele=$('input[name=role]');
+      				ele.attr("placeholder", "* Enter a valid role *");
+              		ele.addClass('placeholderColor');
+					ele.css("border-color","red");
+              		ele.val("");
+      				}
+      			}
+      		});
+      		$('input[name=role]').on("mousedown", function() {
+      			$(this).attr("placeholder", "Role");
+              		$(this).removeClass('placeholderColor');
+					$(this).css("border-color","");
+      		});
+
+
+      		/* ------- */
+      		$('input[name=email]').on('click',function(){
+      			if($('input[name=ph]').val().length === 0){
+      				var ele=$('input[name=ph]');
+      				ele.attr("placeholder", "* Enter Phone number *");
+              		ele.addClass('placeholderColor');
+					ele.css("border-color","red");
+              		ele.val("");
+      			}else {
+
+var letters = /([a-z][A-Z])+/;
+if($('input[name=ph]').val().match(letters))
+{ 
+      					var ele=$('input[name=ph]');
+      				ele.attr("placeholder", "* Enter a valid Phone number *");
+              		ele.addClass('placeholderColor');
+					ele.css("border-color","red");
+              		ele.val("");
+      				}
+      			}
+      		});
+      		$('input[name=ph]').on("mousedown", function() {
+      			$(this).attr("placeholder", "Phone");
+              		$(this).removeClass('placeholderColor');
+					$(this).css("border-color","");
+      		});
+      </script>
    </body>
+
+
+
+
 </html>
