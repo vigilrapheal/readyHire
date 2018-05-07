@@ -30,7 +30,7 @@ img{max-width:100%;}
 body {   
 	background: #673AB7;
 /* background: linear-gradient(to top, rgb(178, 69, 146), rgb(241, 95, 121)); --- ORIGINAL*/
-    background: linear-gradient(to top, #09203f, #537895);
+    background: linear-gradient(to right, #09203f, #537895);
 	background-size:cover;
 	background-attachment: fixed; 
 	/*font-family: 'Roboto Condensed', sans-serif;*/
@@ -111,9 +111,9 @@ input.email,input.text.w3lpass  {
 input[type="submit"] {
     font-size:.9em;
     color: #fff;
-    background: #ef5e7a;
+    background: #fd8b62;
     outline: none;
-    border: 1px solid #ef5e7a;
+    border: 1px solid #fd8b62;
     cursor: pointer;
     padding: 0.9em;
     -webkit-appearance: none;

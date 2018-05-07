@@ -75,7 +75,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     background-size: 100%;
     background-repeat: no-repeat;
     color: #fff;
-	font-family: 'Roboto Condensed', sans-serif;
+	/*font-family: 'Roboto Condensed', sans-serif;*/
 }
 input.email,input.text.w3lpass  {
     margin: 2em 0;
