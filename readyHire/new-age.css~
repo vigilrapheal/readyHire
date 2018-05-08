@@ -170,7 +170,7 @@ background: linear-gradient(to right,#09203f, #537895);/*--1--*/
 /*background: linear-gradient(to right,#3B2667, #BC78EC);----*/
 
 /*background: linear-gradient(to right,#eeeeee, #FAFAFA);*/
-
+overflow: hidden;
 }
 
 
